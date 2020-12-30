@@ -1,0 +1,27 @@
+{
+  "name": "curriculum-vitae",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmaia-22/curriculum-vitae.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmaia-22/curriculum-vitae/issues"
+  },
+  "homepage": "https://github.com/lmaia-22/curriculum-vitae#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "install": "^0.13.0"
+  }
+}

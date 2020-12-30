@@ -1,0 +1,70 @@
+  <div class="row mt-5 h-100">
+    <div class="col-md-auto">  
+     <mat-drawer-container class="container-sidenav" autosize>
+        <mat-drawer #drawer class="p-5" mode="side">
+          <!-- Content for side menu -->
+            <!-- Title -->
+            <h2 class="mt-5">Menu</h2>
+            <!-- Menu options-->
+              <button mat-button class="m-2" [matMenuTriggerFor]="workexperience">Experiência Profissional</button>
+              <button mat-button class="m-2" [matMenuTriggerFor]="studies">Educação</button>
+              <button mat-button class="m-2" [matMenuTriggerFor]="skills">Habilidades</button>
+              <button mat-button class="m-2" [matMenuTriggerFor]="interests">Interesses</button>
+              <button mat-button class="m-2" [matMenuTriggerFor]="contacts">Contactos</button>
+              <button mat-button class="m-2" [matMenuTriggerFor]="references">Referências</button>
+
+              <!-- Option work experience-->
+              <mat-menu #workexperience="matMenu">
+                <button mat-menu-item>Brabbu</button>
+                <button mat-menu-item>Casa da Música</button>
+              </mat-menu>
+
+              <!-- Option studies experience-->
+              <mat-menu #studies="matMenu">
+                <button mat-menu-item>Isep - curso</button>
+                <button mat-menu-item>Isep - mestrado</button>
+              </mat-menu>
+
+              <!-- Option skills experience-->
+              <mat-menu #skills="matMenu">
+                <button mat-menu-item>Compatibilidade</button>
+                <button mat-menu-item>Técnicas</button>
+                <button mat-menu-item>Ferramentas</button>
+              </mat-menu>
+
+              <!-- Option interests experience-->
+              <mat-menu #interests="matMenu">
+                <button mat-menu-item>Desportos</button>
+              </mat-menu>
+
+              <!-- Option contacts experience-->
+              <mat-menu #contacts="matMenu">
+                <button mat-menu-item>Mail</button>
+              </mat-menu>
+
+              <!-- Option references experience-->
+              <mat-menu #references="matMenu">
+                <button mat-menu-item>Referências</button>
+              </mat-menu>
+        </mat-drawer>
+      </mat-drawer-container>
+    </div>
+
+    <div class="col-md-auto">
+      <nav class="navbar navbar-light cyan darken-3 text-white fixed-top">
+        <button type="button" mat-button (click)="drawer.toggle()">
+          <mat-icon class="mx-2">menu</mat-icon>
+          <p class="mr-4 d-inline">Menu</p>
+        </button>
+        <button type="button" routerLink="/home" routerLinkActive="active" mat-raised-button>
+          <mat-icon class="d-inline mx-2" aria-label="Example home icon">home</mat-icon>
+          <p class="mr-4 d-inline">Home</p>
+        </button>
+            <a class="navbar-brand d-inline mx-5" routerLink="/bio">
+                <img class="rounded-circle z-depth-2" alt="80x80" height="35" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(31).jpg"
+              data-holder-rendered="true">
+              <p class="d-inline mx-3 text-white">Luís Maia</p>
+            </a>
+      </nav>
+    </div>
+  </div>
