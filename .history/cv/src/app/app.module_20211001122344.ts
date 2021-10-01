@@ -6,7 +6,6 @@ import {NgParticlesModule} from "ng-particles";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -14,9 +13,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    NgParticlesModule,
-    BrowserAnimationsModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
