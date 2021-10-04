@@ -9,7 +9,6 @@ import { Container, Main } from 'ng-particles';
 export class AppComponent {
   title = 'cv';
 
-  
   id = "tsparticles";
     
   /* Starting from 1.19.0 you can use a remote url (AJAX request) to a JSON with the configuration */
@@ -42,4 +41,6 @@ export class AppComponent {
         
         // Starting from 1.19.0 you can add custom presets or shape here, using the current tsParticles instance (main)
     }
+
+
 }

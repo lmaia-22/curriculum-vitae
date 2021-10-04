@@ -5,8 +5,9 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.sass']
 })
+
 export class HeaderComponent implements OnInit {
-  showFiller = false;
+
   constructor() { }
 
   ngOnInit(): void {
