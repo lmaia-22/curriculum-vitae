@@ -5,6 +5,8 @@ import {MatCardModule} from '@angular/material/card';
 import  {MatIconModule } from '@angular/material/icon';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { MatButtonModule } from '@angular/material/button';
+import { NgxTimelineAlbeModule } from 'ngx-timeline-albe';
+import { MatCommonModule } from '@angular/material/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -31,7 +33,9 @@ import { ContactComponent } from './contact/contact.component';
     MatCardModule,
     MatIconModule,
     FontAwesomeModule,
-    MatButtonModule
+    MatButtonModule,
+    NgxTimelineAlbeModule,
+    MatCommonModule
 
   ],
   providers: [],

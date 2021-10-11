@@ -1,21 +1,54 @@
-<div class="container d-flex justify-content-center align-items-center">
-    <mat-card class="example-card align-items-center">
-        <mat-card-header>
-        <div mat-card-avatar class="example-header-image"></div>
-        <mat-card-title>Shiba Inu</mat-card-title>
-        <mat-card-subtitle>Dog Breed</mat-card-subtitle>
-        </mat-card-header>
-        <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
-        <mat-card-content>
-        <p>
-            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-            bred for hunting.
-        </p>
-        </mat-card-content>
-        <mat-card-actions>
-        <button mat-button>LIKE</button>
-        <button mat-button>SHARE</button>
-        </mat-card-actions>
-    </mat-card>
+<head>
+    <link href = "https://fonts.googleapis.com/icon?family=Material+Icons" rel = "stylesheet">
+ </head>
+
+<div class="start-50 full">
+    <div class="row start-50">
+        <div class="col text-center">
+            <img src="./../../assets/bk.jpg" class="img-thumbnail w-25  rounded" alt="me">
+            <h1 class="display-3">Nome</h1>
+          <h2>Developer, Student, Ninja on free times</h2>
+          <figure class="text-center">
+            <blockquote class="blockquote">
+              <p>Some well-known quote, about achiving dreams.</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+              Someone famous in <cite title="Source Title">Source Title</cite>
+            </figcaption>
+          </figure>
+          <div>
+            <a href="" class="me-4 text-reset">
+                <fa-icon [icon]="faFacebook" size="2x"></fa-icon>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <fa-icon [icon]="faTwitter" size="2x"></fa-icon>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <fa-icon [icon]="faGoogle" size="2x"></fa-icon>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <fa-icon [icon]="faInstagram" size="2x"></fa-icon>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <fa-icon [icon]="faLinkedin" size="2x"></fa-icon>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <fa-icon [icon]="faGithub" size="2x"></fa-icon>
+            </a>
+          </div>
+        </div>
+    </div>
+</div>
+<div class="text-center p-4 cut mt-5 text-white bg-dark">
+  <div class="container">
+  <p class="text-start display-4 me-5">Hey!</p>
+
+    <h1 class="me-5">I'm Nome from Portugal!
+    I love programming, as well as playing padle, driving and learning new things!
+    Feel free to get in touch or take a look at my past work below.</h1>
+  </div>
+</div>
+
+    <div class="container mt-5 start-50">
+<ngx-timeline class="w-100" [itens]="data"></ngx-timeline>
 </div>

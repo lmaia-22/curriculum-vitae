@@ -2,6 +2,13 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.4.
 
+## Librarys in use
+TimeLine - https://openbase.com/js/ngx-timeline-albe
+Particlas background - https://particles.js.org/
+Angular Material - https://material.angular.io/components/categories
+Font-awesome - https://github.com/FortAwesome/angular-fontawesome/blob/3ba3d57c52cfa5997b9824bb5b8e57ad8a45d95f/docs/usage/features.md#size 
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

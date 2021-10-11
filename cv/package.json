@@ -28,6 +28,7 @@
     "@popperjs/core": "^2.10.2",
     "bootstrap": "^5.1.1",
     "ng-particles": "^2.18.3",
+    "ngx-timeline-albe": "^1.2.11",
     "rxjs": "~6.6.0",
     "set-value": "^4.1.0",
     "tslib": "^2.3.0",
